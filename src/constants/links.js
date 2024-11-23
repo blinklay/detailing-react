@@ -1,7 +1,11 @@
 export const LINKS = [
   {
-    text: "Услуги",
+    text: "Главная",
     to: "/"
+  },
+  {
+    text: "Услуги",
+    to: "/services"
   },
   {
     text: "Акции",
@@ -18,9 +22,5 @@ export const LINKS = [
   {
     text: "Контакты",
     to: "/contacts"
-  },
-  {
-    text: "Отзывы",
-    to: "/reviews"
   }
 ]

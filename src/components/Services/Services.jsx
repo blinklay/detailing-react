@@ -1,6 +1,7 @@
 import Container from "../Container/Container";
 import SectionHeader from "../SectionHeader/SectionHeader";
 import ServicesList from "../ServicesList/ServicesList";
+import AllLink from "./AllLink";
 
 export default function Services() {
   return (
@@ -8,6 +9,7 @@ export default function Services() {
       <Container>
         <SectionHeader>УСЛУГИ ДЕТЕЙЛИНГ ЦЕНТРА</SectionHeader>
         <ServicesList />
+        <AllLink />
       </Container>
     </div>
   );

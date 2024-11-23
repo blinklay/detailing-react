@@ -1,5 +1,5 @@
-import Navigation from "../../Navigation/Navigation";
 import { motion } from "framer-motion";
+import Navigation from "../Navigation/Navigation";
 
 export default function Header() {
   return (

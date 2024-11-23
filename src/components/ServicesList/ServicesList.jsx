@@ -2,8 +2,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-const url =
-  "https://img.freepik.com/free-photo/new-white-car-dashboard_144627-8959.jpg?t=st=1732336465~exp=1732340065~hmac=d66eef62fa9ff8479fd89945dd4ec71fed43b010a3a400be52ae0c84a76b765c&w=740";
+const url = "./car.jpg";
 
 export default function ServicesList() {
   const { ref, inView } = useInView({
