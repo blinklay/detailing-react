@@ -1,0 +1,1 @@
+export const getNavLinkClass = (isActive) => isActive ? "bg-accent p-1" : "p-1 hover:bg-accent transition duration-300 ease-in-out"
