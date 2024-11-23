@@ -18,5 +18,9 @@ export const LINKS = [
   {
     text: "Контакты",
     to: "/contacts"
+  },
+  {
+    text: "Отзывы",
+    to: "/reviews"
   }
 ]

@@ -1,11 +1,14 @@
+import Container from "../Container/Container";
 import SectionHeader from "../SectionHeader/SectionHeader";
+import ServicesList from "../ServicesList/ServicesList";
 
 export default function Services() {
   return (
     <div className="mt-20">
-      <div className="max-w-[1220px] mx-auto px-[10px]">
+      <Container>
         <SectionHeader>УСЛУГИ ДЕТЕЙЛИНГ ЦЕНТРА</SectionHeader>
-      </div>
+        <ServicesList />
+      </Container>
     </div>
   );
 }
